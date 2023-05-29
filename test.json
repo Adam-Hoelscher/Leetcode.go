@@ -1,0 +1,91 @@
+{"Time":"2022-10-17T13:13:10.5247807-07:00","Action":"run","Package":"leetcode-go","Test":"TestTreeToJSON"}
+{"Time":"2022-10-17T13:13:10.5254149-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeToJSON","Output":"=== RUN   TestTreeToJSON\n"}
+{"Time":"2022-10-17T13:13:10.5257501-07:00","Action":"run","Package":"leetcode-go","Test":"TestTreeToJSON/Empty"}
+{"Time":"2022-10-17T13:13:10.5260305-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeToJSON/Empty","Output":"=== RUN   TestTreeToJSON/Empty\n"}
+{"Time":"2022-10-17T13:13:10.5263099-07:00","Action":"run","Package":"leetcode-go","Test":"TestTreeToJSON/Left"}
+{"Time":"2022-10-17T13:13:10.5267583-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeToJSON/Left","Output":"=== RUN   TestTreeToJSON/Left\n"}
+{"Time":"2022-10-17T13:13:10.5270026-07:00","Action":"run","Package":"leetcode-go","Test":"TestTreeToJSON/Right"}
+{"Time":"2022-10-17T13:13:10.5272871-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeToJSON/Right","Output":"=== RUN   TestTreeToJSON/Right\n"}
+{"Time":"2022-10-17T13:13:10.5275227-07:00","Action":"run","Package":"leetcode-go","Test":"TestTreeToJSON/Both"}
+{"Time":"2022-10-17T13:13:10.5278165-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeToJSON/Both","Output":"=== RUN   TestTreeToJSON/Both\n"}
+{"Time":"2022-10-17T13:13:10.5280736-07:00","Action":"run","Package":"leetcode-go","Test":"TestTreeToJSON/Large"}
+{"Time":"2022-10-17T13:13:10.528332-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeToJSON/Large","Output":"=== RUN   TestTreeToJSON/Large\n"}
+{"Time":"2022-10-17T13:13:10.5285753-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeToJSON","Output":"--- PASS: TestTreeToJSON (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5288297-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeToJSON/Empty","Output":"    --- PASS: TestTreeToJSON/Empty (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5290707-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTreeToJSON/Empty","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5293213-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeToJSON/Left","Output":"    --- PASS: TestTreeToJSON/Left (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5295614-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTreeToJSON/Left","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5298072-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeToJSON/Right","Output":"    --- PASS: TestTreeToJSON/Right (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5300566-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTreeToJSON/Right","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.530332-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeToJSON/Both","Output":"    --- PASS: TestTreeToJSON/Both (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.530604-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTreeToJSON/Both","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5309037-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeToJSON/Large","Output":"    --- PASS: TestTreeToJSON/Large (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5311461-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTreeToJSON/Large","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5314124-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTreeToJSON","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5316829-07:00","Action":"run","Package":"leetcode-go","Test":"TestTreeFromJSON"}
+{"Time":"2022-10-17T13:13:10.5319533-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeFromJSON","Output":"=== RUN   TestTreeFromJSON\n"}
+{"Time":"2022-10-17T13:13:10.5322119-07:00","Action":"run","Package":"leetcode-go","Test":"TestTreeFromJSON/Empty"}
+{"Time":"2022-10-17T13:13:10.5324731-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeFromJSON/Empty","Output":"=== RUN   TestTreeFromJSON/Empty\n"}
+{"Time":"2022-10-17T13:13:10.5327242-07:00","Action":"run","Package":"leetcode-go","Test":"TestTreeFromJSON/Left"}
+{"Time":"2022-10-17T13:13:10.5329796-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeFromJSON/Left","Output":"=== RUN   TestTreeFromJSON/Left\n"}
+{"Time":"2022-10-17T13:13:10.5332715-07:00","Action":"run","Package":"leetcode-go","Test":"TestTreeFromJSON/Right"}
+{"Time":"2022-10-17T13:13:10.5335579-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeFromJSON/Right","Output":"=== RUN   TestTreeFromJSON/Right\n"}
+{"Time":"2022-10-17T13:13:10.533814-07:00","Action":"run","Package":"leetcode-go","Test":"TestTreeFromJSON/Both"}
+{"Time":"2022-10-17T13:13:10.5340811-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeFromJSON/Both","Output":"=== RUN   TestTreeFromJSON/Both\n"}
+{"Time":"2022-10-17T13:13:10.5343812-07:00","Action":"run","Package":"leetcode-go","Test":"TestTreeFromJSON/Large"}
+{"Time":"2022-10-17T13:13:10.5346229-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeFromJSON/Large","Output":"=== RUN   TestTreeFromJSON/Large\n"}
+{"Time":"2022-10-17T13:13:10.5348768-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeFromJSON","Output":"--- PASS: TestTreeFromJSON (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5351073-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeFromJSON/Empty","Output":"    --- PASS: TestTreeFromJSON/Empty (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.535378-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTreeFromJSON/Empty","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5356185-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeFromJSON/Left","Output":"    --- PASS: TestTreeFromJSON/Left (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5358906-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTreeFromJSON/Left","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5361598-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeFromJSON/Right","Output":"    --- PASS: TestTreeFromJSON/Right (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5364278-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTreeFromJSON/Right","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.536696-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeFromJSON/Both","Output":"    --- PASS: TestTreeFromJSON/Both (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5369722-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTreeFromJSON/Both","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5372415-07:00","Action":"output","Package":"leetcode-go","Test":"TestTreeFromJSON/Large","Output":"    --- PASS: TestTreeFromJSON/Large (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5374833-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTreeFromJSON/Large","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5377317-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTreeFromJSON","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.538006-07:00","Action":"run","Package":"leetcode-go","Test":"TestMinDifficulty"}
+{"Time":"2022-10-17T13:13:10.5382648-07:00","Action":"output","Package":"leetcode-go","Test":"TestMinDifficulty","Output":"=== RUN   TestMinDifficulty\n"}
+{"Time":"2022-10-17T13:13:10.5385134-07:00","Action":"run","Package":"leetcode-go","Test":"TestMinDifficulty/Example_1"}
+{"Time":"2022-10-17T13:13:10.5388466-07:00","Action":"output","Package":"leetcode-go","Test":"TestMinDifficulty/Example_1","Output":"=== RUN   TestMinDifficulty/Example_1\n"}
+{"Time":"2022-10-17T13:13:10.5391623-07:00","Action":"run","Package":"leetcode-go","Test":"TestMinDifficulty/Example_2"}
+{"Time":"2022-10-17T13:13:10.5395906-07:00","Action":"output","Package":"leetcode-go","Test":"TestMinDifficulty/Example_2","Output":"=== RUN   TestMinDifficulty/Example_2\n"}
+{"Time":"2022-10-17T13:13:10.5398967-07:00","Action":"run","Package":"leetcode-go","Test":"TestMinDifficulty/Example_3"}
+{"Time":"2022-10-17T13:13:10.5402054-07:00","Action":"output","Package":"leetcode-go","Test":"TestMinDifficulty/Example_3","Output":"=== RUN   TestMinDifficulty/Example_3\n"}
+{"Time":"2022-10-17T13:13:10.5405216-07:00","Action":"run","Package":"leetcode-go","Test":"TestMinDifficulty/Example_34"}
+{"Time":"2022-10-17T13:13:10.5408442-07:00","Action":"output","Package":"leetcode-go","Test":"TestMinDifficulty/Example_34","Output":"=== RUN   TestMinDifficulty/Example_34\n"}
+{"Time":"2022-10-17T13:13:10.5412135-07:00","Action":"output","Package":"leetcode-go","Test":"TestMinDifficulty","Output":"--- PASS: TestMinDifficulty (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.541484-07:00","Action":"output","Package":"leetcode-go","Test":"TestMinDifficulty/Example_1","Output":"    --- PASS: TestMinDifficulty/Example_1 (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5417846-07:00","Action":"pass","Package":"leetcode-go","Test":"TestMinDifficulty/Example_1","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5420799-07:00","Action":"output","Package":"leetcode-go","Test":"TestMinDifficulty/Example_2","Output":"    --- PASS: TestMinDifficulty/Example_2 (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.542328-07:00","Action":"pass","Package":"leetcode-go","Test":"TestMinDifficulty/Example_2","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5425524-07:00","Action":"output","Package":"leetcode-go","Test":"TestMinDifficulty/Example_3","Output":"    --- PASS: TestMinDifficulty/Example_3 (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5428024-07:00","Action":"pass","Package":"leetcode-go","Test":"TestMinDifficulty/Example_3","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.543026-07:00","Action":"output","Package":"leetcode-go","Test":"TestMinDifficulty/Example_34","Output":"    --- PASS: TestMinDifficulty/Example_34 (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5432779-07:00","Action":"pass","Package":"leetcode-go","Test":"TestMinDifficulty/Example_34","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5435493-07:00","Action":"pass","Package":"leetcode-go","Test":"TestMinDifficulty","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5437818-07:00","Action":"run","Package":"leetcode-go","Test":"TestTwoCitySchedCost"}
+{"Time":"2022-10-17T13:13:10.5440444-07:00","Action":"output","Package":"leetcode-go","Test":"TestTwoCitySchedCost","Output":"=== RUN   TestTwoCitySchedCost\n"}
+{"Time":"2022-10-17T13:13:10.5443241-07:00","Action":"run","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_1"}
+{"Time":"2022-10-17T13:13:10.544592-07:00","Action":"output","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_1","Output":"=== RUN   TestTwoCitySchedCost/Example_1\n"}
+{"Time":"2022-10-17T13:13:10.5448281-07:00","Action":"run","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_2"}
+{"Time":"2022-10-17T13:13:10.5450842-07:00","Action":"output","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_2","Output":"=== RUN   TestTwoCitySchedCost/Example_2\n"}
+{"Time":"2022-10-17T13:13:10.5453116-07:00","Action":"run","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_3"}
+{"Time":"2022-10-17T13:13:10.5455525-07:00","Action":"output","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_3","Output":"=== RUN   TestTwoCitySchedCost/Example_3\n"}
+{"Time":"2022-10-17T13:13:10.5457824-07:00","Action":"run","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_49"}
+{"Time":"2022-10-17T13:13:10.5460105-07:00","Action":"output","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_49","Output":"=== RUN   TestTwoCitySchedCost/Example_49\n"}
+{"Time":"2022-10-17T13:13:10.5462557-07:00","Action":"output","Package":"leetcode-go","Test":"TestTwoCitySchedCost","Output":"--- PASS: TestTwoCitySchedCost (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5464893-07:00","Action":"output","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_1","Output":"    --- PASS: TestTwoCitySchedCost/Example_1 (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5467255-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_1","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5469534-07:00","Action":"output","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_2","Output":"    --- PASS: TestTwoCitySchedCost/Example_2 (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5471838-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_2","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5474287-07:00","Action":"output","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_3","Output":"    --- PASS: TestTwoCitySchedCost/Example_3 (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5476791-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_3","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5479213-07:00","Action":"output","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_49","Output":"    --- PASS: TestTwoCitySchedCost/Example_49 (0.00s)\n"}
+{"Time":"2022-10-17T13:13:10.5481519-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTwoCitySchedCost/Example_49","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5483796-07:00","Action":"pass","Package":"leetcode-go","Test":"TestTwoCitySchedCost","Elapsed":0}
+{"Time":"2022-10-17T13:13:10.5486132-07:00","Action":"output","Package":"leetcode-go","Output":"PASS\n"}
+{"Time":"2022-10-17T13:13:10.5488447-07:00","Action":"output","Package":"leetcode-go","Output":"ok  \tleetcode-go\t(cached)\n"}
+{"Time":"2022-10-17T13:13:10.5490996-07:00","Action":"pass","Package":"leetcode-go","Elapsed":0.024}

@@ -1,3 +1,3 @@
-module leetcode-go
+module leetcode
 
 go 1.17

@@ -1,4 +1,4 @@
-package main
+package leetcodeStruct
 
 import (
 	"encoding/json"

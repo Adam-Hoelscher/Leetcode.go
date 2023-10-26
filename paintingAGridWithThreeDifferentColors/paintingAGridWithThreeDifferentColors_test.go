@@ -3,6 +3,8 @@ package paintingAGridWithThreeDifferentColors
 import (
 	// . "leetcode/leetcodeStruct"
 
+	"fmt"
+	"sort"
 	"testing"
 )
 
@@ -18,30 +20,29 @@ var colorTheGridTestCases []ColorTheGridCase = []ColorTheGridCase{
 	{name: "1*2", m: 1, n: 2, correct: 6},
 	{name: "5*5", m: 5, n: 5, correct: 580_986},
 	{name: "5*1000", m: 5, n: 1000, correct: 408_208_448},
-	{name: "10*1", m: 10, n: 1, correct: 408_208_448},
 }
 
 var colorTheGridBenchCases []ColorTheGridCase
 
-// func init() {
-// 	for m := 1; m <= 10; m++ {
-// 		for n := 1; n <= 50; n++ {
-// 			testCase := ColorTheGridCase{
-// 				name:    fmt.Sprintf("%v*%v", m, n),
-// 				m:       m,
-// 				n:       n,
-// 				correct: 0,
-// 			}
-// 			colorTheGridBenchCases = append(colorTheGridBenchCases, testCase)
-// 		}
-// 	}
-// 	sort.Slice(colorTheGridBenchCases, func(i, j int) bool {
-// 		if colorTheGridBenchCases[i].n != colorTheGridBenchCases[j].n {
-// 			return colorTheGridBenchCases[i].n < colorTheGridBenchCases[j].n
-// 		}
-// 		return colorTheGridBenchCases[i].m < colorTheGridBenchCases[j].m
-// 	})
-// }
+func init() {
+	for n := 256; n <= 1024; n *= 2 {
+		for m := 15; m <= 15; m++ {
+			testCase := ColorTheGridCase{
+				name:    fmt.Sprintf("%v*%v", m, n),
+				m:       m,
+				n:       n,
+				correct: 0,
+			}
+			colorTheGridBenchCases = append(colorTheGridBenchCases, testCase)
+		}
+	}
+	sort.Slice(colorTheGridBenchCases, func(i, j int) bool {
+		if colorTheGridBenchCases[i].n != colorTheGridBenchCases[j].n {
+			return colorTheGridBenchCases[i].n < colorTheGridBenchCases[j].n
+		}
+		return colorTheGridBenchCases[i].m < colorTheGridBenchCases[j].m
+	})
+}
 
 func TestColorTheGrid(t *testing.T) {
 
@@ -63,6 +64,7 @@ func BenchmarkColorTheGrid(b *testing.B) {
 			for i := 0; i < b.N; i++ {
 				colorTheGrid(testCase.m, testCase.n)
 			}
+			b.ReportMetric(b.Elapsed().Seconds()/float64(b.N), "s/op")
 		})
 	}
 
